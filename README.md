@@ -50,6 +50,8 @@ Para recriar o banco: abra `dados/pitanga_store_mysql.sql` no MySQL Workbench e 
 
 ## Dashboard (Power BI)
 
+**[Abrir o dashboard interativo](https://app.powerbi.com/view?r=eyJrIjoiYjRjMWNjYmItZjVlMS00MjVhLTgxNTItZmYwNTdhNjFhM2MxIiwidCI6ImM5NDM3Y2M0LWJkZWYtNDZmMi04ZmRiLTY4OGUzZTMxODhhMCJ9)**: dá para usar os filtros direto no navegador, sem instalar nada.
+
 ![Dashboard da Pitanga Store](powerbi/dashboard.png)
 
 O dashboard traz os KPIs principais (faturamento, custo, lucro bruto, ticket médio, pedidos e clientes), a evolução mensal comparando 2025 e 2026, a comparação mês a mês e ano a ano com formatação condicional, e as análises por categoria, produto, forma de pagamento, dispositivo e cliente.
