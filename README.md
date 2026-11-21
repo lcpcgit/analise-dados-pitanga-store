@@ -37,6 +37,7 @@ Para recriar o banco: abra `dados/pitanga_store_mysql.sql` no MySQL Workbench e 
 | [`05_canais_de_aquisicao.sql`](sql/05_canais_de_aquisicao.sql) | Qual canal de aquisição traz os melhores clientes? |
 | [`06_curva_abc.sql`](sql/06_curva_abc.sql) | Quais produtos são prioridade de estoque (curva ABC)? |
 | [`10_melhores_clientes.sql`](sql/10_melhores_clientes.sql) | Quem são os melhores clientes para receber um brinde? |
+| [`04_limpeza_crm.ipynb`](notebooks/04_limpeza_crm.ipynb) | A mesma limpeza do export do CRM, feita em Python (pandas) |
 
 ## Principais resultados
 
