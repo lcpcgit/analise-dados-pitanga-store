@@ -2,8 +2,6 @@
 
 Projeto de portfólio com análises do dia a dia de um analista de dados, feitas em **SQL (MySQL)**, **Python (pandas)** e **Power BI**, sobre a base de uma loja online fictícia.
 
-Cada análise responde a um pedido de uma área da empresa (Financeiro, Comercial, Marketing, CRM, Compras), como acontece no trabalho real.
-
 > Os dados são **fictícios**, gerados para estudo. Nomes de clientes e e-mails não correspondem a pessoas reais.
 
 ## Ferramentas
@@ -21,10 +19,6 @@ Cada análise responde a um pedido de uma área da empresa (Financeiro, Comercia
 | `pedidos` | 20.004 pedidos (jan/2025 a out/2026), com dispositivo, forma de pagamento e status |
 | `itens_pedido` | os produtos de cada pedido, com quantidade, preço e desconto |
 | `clientes_crm_export_bruto` | export "sujo" do CRM, usado na limpeza |
-
-Para recriar o banco: abra `dados/pitanga_store_mysql.sql` no MySQL Workbench e execute.
-
-**Regras de negócio:** receita = `quantidade × preco_unitario × (1 − desconto_pct)`; só contam como venda os pedidos com status `entregue`; o frete não entra na receita.
 
 ## Análises
 
@@ -57,7 +51,6 @@ Para recriar o banco: abra `dados/pitanga_store_mysql.sql` no MySQL Workbench e 
 O dashboard traz os KPIs principais (faturamento, custo, lucro bruto, ticket médio, pedidos e clientes), a evolução mensal comparando 2025 e 2026, a comparação mês a mês e ano a ano com formatação condicional, e as análises por categoria, produto, forma de pagamento, dispositivo e cliente.
 
 Destaques técnicos:
-- modelo em **esquema estrela**, com `itens_pedido` como tabela fato;
 - **tabela calendário** criada em DAX, com comparações por `SAMEPERIODLASTYEAR` e `DATEADD` limitadas aos dias que já têm vendas;
 - medidas de faturamento, custo (`RELATED`), lucro bruto, margem, ticket médio e taxas de cancelamento e devolução.
 
