@@ -56,4 +56,4 @@ Destaques técnicos:
 
 ## Autor
 
-**Lucas Gabriel Penha**: [LinkedIn](https://www.linkedin.com/in/lucas-gabriel-9719a83a7/)
+**Lucas Gabriel Penha**: [LinkedIn](https://www.linkedin.com/in/lucasgabrielpenha/)
